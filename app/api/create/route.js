@@ -1,7 +1,7 @@
 import { StreamChat } from "stream-chat";
 import { clerkClient} from "@clerk/nextjs/server";
 const api_key =process.env.STREAM_KEY;
-const api_secret = process.env.STREAM_SECRET;
+const api_secret =process.env.STREAM_SECRET;
 // const user_id = "user_2xZs5Jn2HdiH16l1mGHkKbkwnnj";
 function capitalize(string) {
     return string.charAt(0).toUpperCase() + string.slice(1);
