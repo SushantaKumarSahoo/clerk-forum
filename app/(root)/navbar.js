@@ -13,7 +13,7 @@ const Navbar = () => {
         <div className="flex justify-between items-center p-4 rounded-lg border-2 border-gray-200">
 
             <div>
-                <Link href='/'> <span className="text-xl font-bold">Chatt</span></Link>
+                <Link href='/'> <span className="text-xl font-bold">ByteTalk</span></Link>
 
 
             </div>
