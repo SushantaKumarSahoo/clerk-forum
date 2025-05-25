@@ -2,8 +2,8 @@
 import { motion } from "motion/react";
 import { HeroHighlight, Highlight } from "@/components/ui/hero-highlight";
 
-import WorldMapDemo from "@/app/map";
-import {TextRevealCardPreview} from "@/app/textreveal";
+import WorldMapDemo from "@/app/(root)/map";
+import {TextRevealCardPreview} from "@/app/(root)/textreveal";
 
 export default function page() {
     return (
